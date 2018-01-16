@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="b3bc48aeeb2fe6fc5ebe40475f0a40385ec698d8" datatype="html">
+        <source>This translation will generate a random UUID</source>
+        <target>I Am Le Suck</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">If this description changes in any way, it will regen a different UUID and create merge nightmares! (bummer yo)</note>
+      </trans-unit>
+      <trans-unit id="betterId" datatype="html">
+        <source>This translation will generate the ID denoted by the @@ tag</source>
+        <target>Un Bagette</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source>This translation just has a description of the source</source>
+        <target>Le Poisson</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">This translation describes how to describe</note>
+      </trans-unit>
+      <trans-unit id="allTheFixings" datatype="html">
+        <source>This translation has all the fixin&apos;s (description and context)</source>
+        <target>Foo-Le-Fa-Fa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">An example in a list of examples describing different translations</note>
+        <note priority="1" from="meaning">This has all the things</note>
+      </trans-unit>
+      <trans-unit id="realistic" datatype="html">
+        <source>This translation is a realist (no description or context)</source>
+        <target>These aren't very good translations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="attribute" datatype="html">
+        <source>Look under my hood ;)</source>
+        <target>I'm translated too!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
