@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {I18n} from "@ngx-translate/i18n-polyfill";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'I18n Translation Demo';
+
+  title;
+
+  constructor(i18n: I18n) {
+    this.title = i18n({
+      value: 'I18n Translation Demo',
+      id: 'polyTest'
+    });
+  }
+
 }

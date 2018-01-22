@@ -11,7 +11,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "i18n": "ng-xi18n --outFile ../../out/messages.xlf --i18nFormat xlf -p ./tsconfig.json"
+    "i18n": "ng-xi18n --outFile ../../out/messages.xlf --i18nFormat xlf -p ./tsconfig.json && ngx-extractor -i src/**/*.ts -f xlf -o ./out/messages.xlf"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "@ngx-translate/i18n-polyfill": "^0.1.2",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
